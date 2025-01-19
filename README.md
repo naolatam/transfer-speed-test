@@ -1,6 +1,6 @@
 # Transfer-Speed-Test
 
-Ce projet avait simplement pour but de voir qu'elle méthode était la plus rapide pour faire communiquer des données.
+Ce projet avait simplement pour but de voir qu'elle méthode était la plus rapide pour faire transiter des données.
 Voici les deux méthodes essayés:
 
 ## 1: Via Websocket
