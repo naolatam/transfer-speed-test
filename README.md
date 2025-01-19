@@ -11,10 +11,13 @@ Résultat: La latence augmente exponentiellement vis à vis de la quantité de d
 Latency with websocket: 8.907639287765653ms | number: 8705 | Bytes : 622.84 MiB
 ```
 
-## 1: Via le parent
+## 2: Via le parent
 Le parent crée deux enfants, un qui va recevoir des données, et un qui va les envoyés. 
 Le but, est qu'un des deux enfants fasse du scraping à haute intensité, et que le deuxième partage les données récupéré à plusieurs autres programmes via un websocket. 
-
+Schéma: 
+```
+Enfant 1 -> Parent -> Enfant 2
+```
 Des données aléatoires sont donc générés pour simuler un véritable échange.
 Résultat: La latence augmente pratiquement pas avec la quantité de données.
 ```
